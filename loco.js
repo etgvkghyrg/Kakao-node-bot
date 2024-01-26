@@ -1,6 +1,6 @@
 const node_kakao = require("node-kakao");
-const email = "mdjfmhfnjfp@kakao.com"
-const pw = "qqoqqo01";
+const email = ""
+const pw = "";
 const deviceUUID = "RP8glOE++C101joUpgz9qVmo/62DJTuruRMRXDWH/lkp53UCb9aPfuNBNDjDCeT8f7yoxN9tDWXvCXMq+Vv2Sw==";
 const deviceName = "PC";          
 const client = new node_kakao.TalkClient(deviceName, deviceUUID, { version: "3.4.6", appVersion: "3.4.6.4748", xvcSeedList: ["KEPHA", "HALEY"]});
